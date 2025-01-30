@@ -42,7 +42,7 @@ interactive and customizable map
 here you'll find the lexicon concerning a plot : [Anatomy of a figure](https://matplotlib.org/stable/gallery/showcase/anatomy.html)   
 ![anatomy image of a figure](https://matplotlib.org/stable/_images/sphx_glr_anatomy_001.png)   
 
-Cheat sheet
+## Cheat sheet
 | Task | Syntax	| Description | Example |
 | --- | ---	| --- | --- |
 |Load CSV data|	pd.read_csv('filename.csv')|	Read data from a CSV file into a Pandas DataFrame |	df_can=pd.read_csv('data.csv')|
