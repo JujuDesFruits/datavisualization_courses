@@ -33,14 +33,14 @@ dataframe_sort.plot(kind='box')
 ```
 
 ## Scatter plot
-Display values pertaining to two variables
-determines the correlation between the two variables
+Display values pertaining to two variables   
+determines the correlation between the two variables   
 ```
 dataframe_sort.plot(kind='scatter', x=, y=)
 ```
 
 ## Treemaps
-displays hierarchical data ising nested rectangles
+displays hierarchical data ising nested rectangles   
 ```
 import plotly.express as px
 [...]
@@ -52,7 +52,7 @@ px.treemap(dataframe_sort,
 ```
 
 ## Pivot Charts
-dynamically summarize and explore large dataset revealing insights and trands.
+dynamically summarize and explore large dataset revealing insights and trands.   
 ```
 pivot_table=dataframe_sort.pivot_tables(values='ValuesColumn', index='RowIndewColumn', columns='ColumnsIndexColumn', aggfunc='sum')
 pivot_table.plot(kind='bar')
